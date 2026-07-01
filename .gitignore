@@ -3,9 +3,11 @@ data/raw/
 data/processed/
 data/output/
 
-# ── Plots are OK but optional ─────────────────────────────────
-# comment out the line below if you WANT to include plots
-# plots/
+# ── Plots ────────────────────────────────────────────────────
+#plots/ # include plots
+
+# ── Submission ──────────────────────────────────────────────────────
+submissions/
 
 # ── Python ───────────────────────────────────────────────────
 __pycache__/
