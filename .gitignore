@@ -1,0 +1,39 @@
+# ── Kaggle Data (DO NOT COMMIT) ──────────────────────────────
+data/raw/
+data/processed/
+data/output/
+
+# ── Plots ────────────────────────────────────────────────────
+#plots/ # include plots
+
+# ── Submission ──────────────────────────────────────────────────────
+submissions/
+
+# ── Python ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+
+# ── Jupyter ──────────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ── Environments ─────────────────────────────────────────────
+.env
+.venv
+env/
+venv/
+
+# ── OS ───────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ──────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.code-workspace
