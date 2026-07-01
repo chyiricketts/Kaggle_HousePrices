@@ -1,0 +1,62 @@
+[
+  {
+    "model": "round1_quickRF",
+    "cv_rmse_mean": 0.14002,
+    "cv_rmse_std": 0.00995,
+    "cv_scores": [
+      0.12625,
+      0.15426,
+      0.14689,
+      0.13257,
+      0.14015
+    ],
+    "params": {},
+    "submission": "round1_quickRF.csv",
+    "notes": "Baseline RF, simple label encoding"
+  },
+  {
+    "model": "round2_optunaRF",
+    "cv_rmse_mean": 0.13614,
+    "cv_rmse_std": 0.00993,
+    "cv_scores": [
+      0.1241,
+      0.1502,
+      0.14352,
+      0.12635,
+      0.13652
+    ],
+    "params": {},
+    "submission": "round2_optunaRF.csv",
+    "notes": ""
+  },
+  {
+    "model": "round3_lightGBM",
+    "cv_rmse_mean": 0.12508,
+    "cv_rmse_std": 0.01264,
+    "cv_scores": [
+      0.11098,
+      0.14037,
+      0.13441,
+      0.10925,
+      0.1304
+    ],
+    "params": {},
+    "submission": "round3_lightGBM.csv",
+    "notes": ""
+  },
+  {
+    "model": "round4_linreg_lasso",
+    "cv_rmse_mean": 0.14885,
+    "cv_rmse_std": 0.02755,
+    "cv_scores": [
+      0.12513,
+      0.16081,
+      0.13263,
+      0.12797,
+      0.19773
+    ],
+    "params": {},
+    "submission": "round4_linreg_lasso.csv",
+    "notes": ""
+  }
+]
